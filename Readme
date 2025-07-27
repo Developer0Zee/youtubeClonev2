@@ -1,9 +1,9 @@
-# 🎬 ZTUBE – A YouTube Clone (MERN Stack)(I have pushed the code into master as git was initialised in client folder mistakenly)
+# 🎬 ZTUBE – A YouTube Clone (MERN Stack)(I have pushed the code into main again as git was initialised in client folder mistakenly)
 
 This is my **Capstone Project** developed as part of **Internshala Trainings**.  
 ZTUBE is a fully functional YouTube clone built using the **MERN stack** (MongoDB, Express, React, Node.js) featuring user authentication, video playback, comments, channel management, and responsive UI across devices.
 
-> ✅ Final Submission Repository: [YoutubeCloneV3](https://github.com/Developer0Zee/YoutubeCloneV3)  
+> ✅ Final Submission Repository: [YoutubeCloneV3](https://github.com/Developer0Zee/youtubeClonev2.git)  
 > 🔧 Development Repository: [youtubeClone](https://github.com/Developer0Zee/youtubeClone)
 
 ---
@@ -13,7 +13,7 @@ ZTUBE is a fully functional YouTube clone built using the **MERN stack** (MongoD
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tech Stack 
 
 - **Frontend:** React, React Router, Redux, Axios
 - **Backend:** Node.js, Express.js
