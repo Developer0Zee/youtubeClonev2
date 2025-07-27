@@ -1,0 +1,158 @@
+# 🎬 ZTUBE – A YouTube Clone (MERN Stack)(I have pushed the code into master as git was initialised in client folder mistakenly)
+
+This is my **Capstone Project** developed as part of **Internshala Trainings**.  
+ZTUBE is a fully functional YouTube clone built using the **MERN stack** (MongoDB, Express, React, Node.js) featuring user authentication, video playback, comments, channel management, and responsive UI across devices.
+
+> ✅ Final Submission Repository: [YoutubeCloneV3](https://github.com/Developer0Zee/YoutubeCloneV3)  
+> 🔧 Development Repository: [youtubeClone](https://github.com/Developer0Zee/youtubeClone)
+
+---
+
+## 📽 Demo Video
+ https://photos.app.goo.gl/V1itxogWswCgWwQG6
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React, React Router, Redux, Axios
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Local & Atlas)
+- **Authentication:** JWT (JSON Web Tokens)
+- **Version Control:** Git & GitHub
+
+---
+
+## ✨ Frontend Features
+
+### 🏠 Home Page
+- YouTube-style dark theme header
+- Toggleable sidebar for navigation
+- Filter buttons for video categories
+- Responsive video grid layout
+
+### 🔐 Authentication
+- Register and Login with JWT
+- Dynamic UI changes based on user state
+- Protected routes for logged-in users only
+
+### 🔎 Search & Filter
+- Search bar to find videos by title
+- Category-based filter buttons
+
+### 🎥 Video Player Page
+- In-browser video playback
+- Likes / Dislikes functionality
+- Comments section (Add/Delete)
+
+### 📣 Channel Management
+- Create your own channel
+- Upload, edit, delete your videos
+- Display channel details and videos
+- Fully responsive for mobile, tablet, and desktop
+
+---
+
+## 🧩 Backend Features
+
+- User registration and login (JWT-secured)
+- CRUD operations for:
+  - Users
+  - Channels
+  - Videos
+  - Comments
+- Protected routes using middleware
+- MongoDB collections for:
+  - `users`
+  - `channels`
+  - `videos`
+  - `comments`
+
+---
+
+## 🚀 Usage Instructions
+
+Once the project is installed and running, here's how to use it:
+
+### 1️⃣ User Authentication
+- Click the **Sign In** button in the header.
+- Register or log in using the form.
+- Authenticated users see their name/avatar in the header.
+
+### 2️⃣ Browse Videos
+- View video thumbnails on the homepage.
+- Filter by category or search by title.
+
+### 3️⃣ Watch Videos
+- Click any video card to open the player.
+- See video details, like/dislike, and comment options.
+
+### 4️⃣ Channel Management
+- Go to “Your Channel” via the sidebar.
+- Create a channel with name, description, and banner.
+- Upload, edit, or delete your videos.
+
+### 5️⃣ Fully Responsive
+- Works perfectly on mobile, tablet, and desktop devices.
+
+---
+
+## 🛠 Installation Guide
+
+### 📁 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Developer0Zee/YoutubeCloneV3.git
+cd YoutubeCloneV3
+
+⚙️ Step 2: Backend Setup
+
+cd server
+npm install
+
+📄 Create .env in /server folder:
+PORT=7272
+MONGO=mongodb://localhost:27017/youtubeclone
+JWT=your_jwt_secret_here
+
+▶️ Start the server:
+npm start
+
+The backend will run on: http://localhost:7272
+
+💻 Step 3: Frontend Setup
+
+cd ../frontend
+npm install
+npm run dev
+
+📄 Create .env in /frontend folder:
+
+VITE_API_URL=http://localhost:7272/api
+
+The frontend will run on: http://localhost:5173
+
+YoutubeCloneV3/
+│
+├── server/           → Express backend with MongoDB & JWT
+│   ├── models/       → Mongoose models: User, Video, Channel, Comment
+│   ├── routes/       → Route handlers for Auth, Videos, Channels, Comments
+│   ├── middlewares/  → JWT verification middleware
+│   └── .env          → Environment variables for backend
+│
+├── frontend/         → React frontend with Redux & Axios
+│   ├── components/   → Reusable UI components
+│   ├── pages/        → Main pages (Home, Video, Channel, Auth, etc.)
+│   ├── redux/        → Redux slices and store config
+│   └── .env          → Environment variables for frontend
+│
+└── README.md         → This file
+
+ Author
+Zeeshan Ahmad
+📧 Email: mdzishanc@gmail.com
+🔗 GitHub: Developer0Zee
+
+📄 License
+This project is submitted for educational purposes as part of the Internshala Full Stack Web Development Capstone Project.
+Feel free to explore and learn from the codebase.
